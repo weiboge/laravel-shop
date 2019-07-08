@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79801481-d28e-42de-889f-3397468cd296" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cart/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CouponCodesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#40#66#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/pay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -75,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_07_234028_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_07_234413_create_product_skus_table.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" />
@@ -172,6 +179,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CouponCodesController.php" />
         <option value="$PROJECT_DIR$/resources/views/cart/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/config/pay.php" />
       </list>
     </option>
   </component>
@@ -280,6 +288,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/yansongda/supports" />
+      <path value="$PROJECT_DIR$/vendor/yansongda/pay" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -353,6 +363,11 @@
               <item name="laravel-shop" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -480,12 +495,12 @@
       <workItem from="1562407236363" duration="4537000" />
       <workItem from="1562468613146" duration="10262000" />
       <workItem from="1562503504742" duration="3258000" />
-      <workItem from="1562549471893" duration="22633000" />
+      <workItem from="1562549471893" duration="22729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135519000" />
+    <option name="totallyTimeSpent" value="135615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -527,13 +542,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -882,7 +890,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -909,10 +917,17 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CouponCodesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>

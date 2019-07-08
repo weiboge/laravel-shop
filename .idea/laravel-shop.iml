@@ -12,6 +12,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/laravel-lang" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/predis/predis" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yansongda/pay" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yansongda/supports" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
