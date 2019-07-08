@@ -95,6 +95,8 @@ return [
 
     'fallback_locale' => 'en',
 
+    'order_ttl' => 30,
+
     /*
     |--------------------------------------------------------------------------
     | Faker Locale
@@ -120,6 +122,8 @@ return [
     */
 
     'key' => env('APP_KEY'),
+
+
 
     'cipher' => 'AES-256-CBC',
 
