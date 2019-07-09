@@ -29,6 +29,7 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     Route::get('coupon_codes/{code}', 'CouponCodesController@show')->name('coupon_codes.show');
     Route::get('payment/{order}/alipay', 'PaymentController@payByAlipay')->name('payment.alipay');
     Route::get('payment/alipay/return', 'PaymentController@alipayReturn')->name('payment.alipay.return');//前端回调
+    Route::post('orders/{order}/received', 'OrdersController@received')->name('orders.received');
 
 });
 Route::get('products/{product}', 'ProductsController@show')->name('products.show');
